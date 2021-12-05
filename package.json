@@ -1,0 +1,24 @@
+{
+  "name": "svelte-tabler",
+  "version": "1.0.0",
+  "description": "Tabler Icons as svelte components",
+  "svelte": "index.js",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "deno run --unstable -A generate.js"
+  },
+  "peerDependencies": {
+    "svelte": ">=3.31.0 <=4"
+  },
+  "files": [
+    "icons"
+  ],
+  "keywords": [
+    "svelte",
+    "components",
+    "svg",
+    "icons",
+    "tabler"
+  ]
+}
