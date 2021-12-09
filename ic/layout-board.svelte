@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-stack-2"
+  class="icon icon-tabler icon-tabler-layout-board"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,7 +17,8 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <polyline points="12 4 4 8 12 12 20 8 12 4" />
-  <polyline points="4 12 12 16 20 12" />
-  <polyline points="4 16 12 20 20 16" />
+  <rect x="4" y="4" width="16" height="16" rx="2" />
+  <path d="M4 9h8" />
+  <path d="M12 15h8" />
+  <path d="M12 4v16" />
 </svg>

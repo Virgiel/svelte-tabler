@@ -3,8 +3,6 @@ import { unZipFromURL } from 'https://deno.land/x/zip@v1.1.0/mod.ts';
 
 const OUT_DIR = 'ic';
 const TABLER_DIR = 'tabler';
-const TABLER_VERSION = '1.46.0';
-const TABLER_LINK = `https://github.com/tabler/tabler-icons/releases/download/v${TABLER_VERSION}/tabler-icons-${TABLER_VERSION}.zip`;
 const REGEX = /<svg[^>]*>([\s\S]*?)<\/svg>/;
 
 /// Transform an icon name into a svelte component name
@@ -46,7 +44,13 @@ await emptyDir(TABLER_DIR);
 
 /* ----- Download taler icons ----- */
 
-await unZipFromURL(TABLER_LINK, TABLER_DIR);
+const release = await (
+  await fetch(
+    'https://api.github.com/repos/tabler/tabler-icons/releases/latest'
+  )
+).json();
+console.info('Found version ' + release.tag_name);
+await unZipFromURL(release.assets[0].browser_download_url, TABLER_DIR);
 
 /* ----- Generate svelte components ----- */
 
@@ -82,3 +86,5 @@ await Deno.writeTextFile(
   `${OUT_DIR}/index.d.ts`,
   `import { SvelteComponentTyped } from "svelte"\n${types}`
 );
+
+console.info('Done');
