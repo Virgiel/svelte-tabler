@@ -1,5 +1,5 @@
-import { emptyDir } from 'https://deno.land/std@0.117.0/fs/mod.ts';
-import { unZipFromURL } from 'https://deno.land/x/zip@v1.1.0/mod.ts';
+import { emptyDir } from 'https://deno.land/std@0.119.0/fs/mod.ts';
+import { unZipFromURL } from 'https://deno.land/x/zip@v1.1.1/mod.ts';
 
 const OUT_DIR = 'ic';
 const TABLER_DIR = 'tabler';
