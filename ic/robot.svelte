@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-plug"
+  class="icon icon-tabler icon-tabler-robot"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,8 +17,10 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 6l8 8l-2 2a5.657 5.657 0 1 1 -8 -8l2 -2z" />
-  <path d="M4 20l4 -4" />
-  <path d="M15 4l-3.5 3.5" />
-  <path d="M20 9l-3.5 3.5" />
+  <path d="M7 7h10a2 2 0 0 1 2 2v1l1 1v3l-1 1v3a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-3l-1 -1v-3l1 -1v-1a2 2 0 0 1 2 -2z" />
+  <path d="M10 16h4" />
+  <circle cx="8.5" cy="11.5" r="1" />
+  <circle cx="15.5" cy="11.5" r="1" />
+  <path d="M9 7l-1 -4" />
+  <path d="M15 7l1 -4" />
 </svg>

@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-plug"
+  class="icon icon-tabler icon-tabler-brand-tripadvisor"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,8 +17,10 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 6l8 8l-2 2a5.657 5.657 0 1 1 -8 -8l2 -2z" />
-  <path d="M4 20l4 -4" />
-  <path d="M15 4l-3.5 3.5" />
-  <path d="M20 9l-3.5 3.5" />
+  <circle cx="6.5" cy="13.5" r="1.5" />
+  <circle cx="17.5" cy="13.5" r="1.5" />
+  <path d="M17.5 9a4.5 4.5 0 1 0 3.5 1.671l1 -1.671h-4.5z" />
+  <path d="M6.5 9a4.5 4.5 0 1 1 -3.5 1.671l-1 -1.671h4.5z" />
+  <path d="M10.5 15.5l1.5 2l1.5 -2" />
+  <path d="M9 6.75c2 -.667 4 -.667 6 0" />
 </svg>
