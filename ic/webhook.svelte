@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-robot"
+  class="icon icon-tabler icon-tabler-webhook"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,10 +17,7 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M7 7h10a2 2 0 0 1 2 2v1l1 1v3l-1 1v3a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-3l-1 -1v-3l1 -1v-1a2 2 0 0 1 2 -2z" />
-  <path d="M10 16h4" />
-  <circle cx="8.5" cy="11.5" r=".5" fill="currentColor" />
-  <circle cx="15.5" cy="11.5" r=".5" fill="currentColor" />
-  <path d="M9 7l-1 -4" />
-  <path d="M15 7l1 -4" />
+  <path d="M4.876 13.61a4 4 0 1 0 6.124 3.39h6" />
+  <path d="M15.066 20.502a4 4 0 1 0 1.934 -7.502c-.706 0 -1.424 .179 -2 .5l-3 -5.5" />
+  <path d="M16 8a4 4 0 1 0 -8 0c0 1.506 .77 2.818 2 3.5l-3 5.5" />
 </svg>
