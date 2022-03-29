@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-device-mobile"
+  class="icon icon-tabler icon-tabler-cpu-2"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,7 +17,14 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <rect x="6" y="3" width="12" height="18" rx="2" />
-  <line x1="11" y1="4" x2="13" y2="4" />
-  <line x1="12" y1="17" x2="12" y2="17.01" />
+  <rect x="5" y="5" width="14" height="14" rx="1" />
+  <path d="M8 10v-2h2m6 6v2h-2m-4 0h-2v-2m8 -4v-2h-2" />
+  <path d="M3 10h2" />
+  <path d="M3 14h2" />
+  <path d="M10 3v2" />
+  <path d="M14 3v2" />
+  <path d="M21 10h-2" />
+  <path d="M21 14h-2" />
+  <path d="M14 21v-2" />
+  <path d="M10 21v-2" />
 </svg>
