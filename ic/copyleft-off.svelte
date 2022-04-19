@@ -1,12 +1,12 @@
 <script>
-  export let size = 44;
+  export let size = "44px";
   export let color = 'currentColor';
   export let strokeWidth = 1.5;
 </script>
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-currency-bath"
+  class="icon icon-tabler icon-tabler-copyleft-off"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,9 +17,7 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M8 6h5a3 3 0 0 1 3 3v.143a2.857 2.857 0 0 1 -2.857 2.857h-5.143" />
-  <path d="M8 12h5a3 3 0 0 1 3 3v.143a2.857 2.857 0 0 1 -2.857 2.857h-5.143" />
-  <path d="M8 6v12" />
-  <path d="M11 4v2" />
-  <path d="M11 18v2" />
+  <path d="M13.303 9.3a3.01 3.01 0 0 1 1.405 1.406m-.586 3.413a3.016 3.016 0 0 1 -4.122 .131" />
+  <path d="M20.042 16.045a9 9 0 0 0 -12.087 -12.087m-2.318 1.677a9 9 0 1 0 12.725 12.73" />
+  <path d="M3 3l18 18" />
 </svg>

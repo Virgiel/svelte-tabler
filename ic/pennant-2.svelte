@@ -1,5 +1,5 @@
 <script>
-  export let size = 44;
+  export let size = "44px";
   export let color = 'currentColor';
   export let strokeWidth = 1.5;
 </script>

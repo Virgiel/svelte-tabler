@@ -3,7 +3,7 @@
 A library of Svelte components for
 [Tabler Icons](https://github.com/tabler/tabler-icons).
 
-> A set of over 1350 free MIT-licensed high-quality SVG icons for you to use in
+> A set of over 1700 free MIT-licensed high-quality SVG icons for you to use in
 > your web projects.
 
 **Disclaimer: This project is intended for my personal use and I will not
