@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-signal-5g"
+  class="icon icon-tabler icon-tabler-circuit-motor"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,6 +17,8 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M10 8h-5v4h3a2 2 0 1 1 0 4h-3" />
-  <path d="M19 8h-3a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3v-4h-1" />
+  <circle cx="12" cy="12" r="7" />
+  <path d="M5 12h-3" />
+  <path d="M19 12h3" />
+  <path d="M10 14v-4l2 2l2 -2v4" />
 </svg>
