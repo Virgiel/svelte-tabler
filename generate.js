@@ -100,4 +100,4 @@ await Deno.writeTextFile(
   `import { SvelteComponentTyped } from "svelte"\n${types}`
 );
 
-console.info('Done');
+console.info(`Done ${release.tag_name}`);
