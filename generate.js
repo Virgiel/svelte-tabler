@@ -1,19 +1,16 @@
-import { emptyDir } from 'https://deno.land/std@0.135.0/fs/mod.ts';
-import { decompress } from 'https://deno.land/x/zip@v1.2.3/mod.ts';
-import { readerFromStreamReader } from 'https://deno.land/std@0.135.0/io/mod.ts';
+import { emptyDir } from 'https://deno.land/std@0.156.0/fs/mod.ts';
+import {
+  BlobReader,
+  TextWriter,
+  ZipReader,
+} from 'https://deno.land/x/zipjs@v2.6.29/index.js';
 
 const OUT_DIR = 'ic';
 const REGEX = /<svg[^>]*>([\s\S]*?)<\/svg>/;
 
-async function downloadFile(url, path) {
+async function downloadFile(url) {
   const res = await fetch(url);
-  const file = await Deno.open(path, {
-    create: true,
-    write: true,
-  });
-  const reader = readerFromStreamReader(res.body.getReader());
-  await Deno.copy(reader, file);
-  file.close();
+  return await res.blob();
 }
 
 /// Transform an icon name into a svelte component name
@@ -54,29 +51,31 @@ await emptyDir(OUT_DIR);
 
 /* ----- Download taler icons ----- */
 
-const archivePath = await Deno.makeTempFile();
-const tablerDir = await Deno.makeTempDir();
 const release = await (
   await fetch(
     'https://api.github.com/repos/tabler/tabler-icons/releases/latest'
   )
 ).json();
 console.info('Found version ' + release.tag_name);
-await downloadFile(release.assets[0].browser_download_url, archivePath);
-await decompress(archivePath, tablerDir);
+const iconsZip = await downloadFile(release.assets[0].browser_download_url);
+const zipReader = new ZipReader(new BlobReader(iconsZip));
+const entries = await zipReader.getEntries();
 
 /* ----- Generate svelte components ----- */
 
 const list = [];
-for await (const icon of Deno.readDir(`${tablerDir}/icons`)) {
-  const [svgName] = icon.name.split('.');
-  const componentName = normalizeName(svgName);
-  const full = await Deno.readTextFile(`${tablerDir}/icons/${icon.name}`);
-  const [, content] = REGEX.exec(full);
-  const path = `./${OUT_DIR}/${svgName}.svelte`;
-  await Deno.writeTextFile(path, component(svgName, content));
-  list.push([componentName, path]);
+for (const entry of entries) {
+  if (entry.filename.startsWith('icons/')) {
+    const svgName = entry.filename.split('/')[1].split('.')[0];
+    const componentName = normalizeName(svgName);
+    const full = await entry.getData(new TextWriter());
+    const [, content] = REGEX.exec(full);
+    const path = `./${OUT_DIR}/${svgName}.svelte`;
+    await Deno.writeTextFile(path, component(svgName, content));
+    list.push([componentName, path]);
+  }
 }
+await zipReader.close();
 
 /* ----- Generate index file ----- */
 
@@ -100,4 +99,6 @@ await Deno.writeTextFile(
   `import { SvelteComponentTyped } from "svelte"\n${types}`
 );
 
-console.info(`Done ${release.tag_name}`);
+console.info(`Processed ${list.length} icons`);
+
+export default release.tag_name;

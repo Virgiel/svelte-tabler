@@ -1,0 +1,14 @@
+name: Auto sync
+on:
+  schedule:
+    - cron: "0 0 * * *"
+jobs:
+  sync-tabler-icons:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+      - run: deno run -A auto-commit.js
