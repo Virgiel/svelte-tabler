@@ -17,6 +17,6 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-    <ellipse cx="12" cy="7" rx="7" ry="3" />
+  <ellipse cx="12" cy="7" rx="7" ry="3" />
   <path d="M19 7v.5l-7 12.5l-7 -12.5v-.5" />
 </svg>
