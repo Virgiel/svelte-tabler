@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-divide"
+  class="icon icon-tabler icon-tabler-e-passport"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,7 +17,8 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <circle cx="12" cy="6" r="1" fill="currentColor" />
-  <circle cx="12" cy="18" r="1" fill="currentColor" />
-  <line x1="5" y1="12" x2="19" y2="12" />
+  <rect x="2" y="5" width="20" height="14" rx="1.999" />
+  <circle cx="12" cy="12" r="3" />
+  <path d="M9 12h-7" />
+  <path d="M15 12h7" />
 </svg>

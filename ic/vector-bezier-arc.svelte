@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-divide"
+  class="icon icon-tabler icon-tabler-vector-bezier-arc"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,7 +17,11 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <circle cx="12" cy="6" r="1" fill="currentColor" />
-  <circle cx="12" cy="18" r="1" fill="currentColor" />
-  <line x1="5" y1="12" x2="19" y2="12" />
+  <rect x="3" y="10" width="4" height="4" rx="1" />
+  <rect x="17" y="10" width="4" height="4" rx="1" />
+  <rect x="10" y="3" width="4" height="4" rx="1" />
+  <rect x="10" y="17" width="4" height="4" rx="1" />
+  <path d="M19 10a5 5 0 0 0 -5 -5" />
+  <path d="M5 14a5 5 0 0 0 5 5" />
+  <path d="M5 10a5 5 0 0 1 5 -5" />
 </svg>

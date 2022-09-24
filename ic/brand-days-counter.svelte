@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-divide"
+  class="icon icon-tabler icon-tabler-brand-days-counter"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,7 +17,7 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <circle cx="12" cy="6" r="1" fill="currentColor" />
-  <circle cx="12" cy="18" r="1" fill="currentColor" />
-  <line x1="5" y1="12" x2="19" y2="12" />
+  <path d="M20.779 10.007a9 9 0 1 0 -10.77 10.772" />
+  <path d="M13 21h8v-7" />
+  <path d="M12 8v4l3 3" />
 </svg>
