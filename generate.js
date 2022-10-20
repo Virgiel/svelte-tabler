@@ -1,17 +1,12 @@
-import { emptyDir } from 'https://deno.land/std@0.156.0/fs/mod.ts';
+import { emptyDir } from 'https://deno.land/std@0.160.0/fs/mod.ts';
 import {
-  BlobReader,
   TextWriter,
   ZipReader,
-} from 'https://deno.land/x/zipjs@v2.6.29/index.js';
+  HttpReader,
+} from 'https://deno.land/x/zipjs@v2.6.50/index.js';
 
 const OUT_DIR = 'ic';
 const REGEX = /<svg[^>]*>([\s\S]*?)<\/svg>/;
-
-async function downloadFile(url) {
-  const res = await fetch(url);
-  return await res.blob();
-}
 
 /// Transform an icon name into a svelte component name
 function normalizeName(string) {
@@ -57,8 +52,9 @@ const release = await (
   )
 ).json();
 console.info('Found version ' + release.tag_name);
-const iconsZip = await downloadFile(release.assets[0].browser_download_url);
-const zipReader = new ZipReader(new BlobReader(iconsZip));
+const zipReader = new ZipReader(
+  new HttpReader(release.assets[0].browser_download_url)
+);
 const entries = await zipReader.getEntries();
 
 /* ----- Generate svelte components ----- */
