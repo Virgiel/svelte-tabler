@@ -704,6 +704,11 @@ export class IcArrowGuide extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcArrowIteration extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcArrowLeftBar extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -4964,6 +4969,11 @@ export class IcCoffee extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcCoffin extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcCoinBitcoin extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -5135,6 +5145,11 @@ export class IcContrastOff extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcContrast extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcCooker extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -5375,6 +5390,11 @@ export class IcCrutchesOff extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcCrutches extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcCrystalBall extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -7394,6 +7414,11 @@ export class IcGeometry extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcGhost2 extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcGhostOff extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -7424,7 +7449,17 @@ export class IcGift extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcGitBranchDeleted extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcGitBranch extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcGitCherryPick extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -7530,6 +7565,16 @@ export class IcGraphOff extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcGraph extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcGrave2 extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcGrave extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -8439,6 +8484,11 @@ export class IcItalic extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcJetpack extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcJewishStar extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -8499,7 +8549,27 @@ export class IcKeyboard extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcKeyframeAlignCenter extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcKeyframeAlignHorizontal extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcKeyframeAlignVertical extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcKeyframe extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcKeyframes extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -10494,6 +10564,11 @@ export class IcPentagon extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcPentagram extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcPepperOff extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -11050,6 +11125,11 @@ export class IcPropellerOff extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcPropeller extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcPumpkinScary extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -12070,6 +12150,11 @@ export class IcSkull extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcSlash extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcSlashes extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -14090,6 +14175,11 @@ export class IcWebhookOff extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcWebhook extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcWeight extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
