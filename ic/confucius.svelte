@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-heart-minus"
+  class="icon icon-tabler icon-tabler-confucius"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,6 +17,8 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M13 19l-1 1l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 0 1 8 6" />
-  <path d="M14 16h6" />
+  <path d="M9 19l3 2v-18" />
+  <path d="M4 10l8 -2" />
+  <path d="M4 18l8 -10" />
+  <path d="M20 18l-8 -8l8 -4" />
 </svg>
