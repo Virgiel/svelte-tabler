@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-bucket"
+  class="icon icon-tabler icon-tabler-brand-nexo"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,6 +17,6 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <ellipse cx="12" cy="7" rx="8" ry="4" />
-  <path d="M4 7c0 .664 .088 1.324 .263 1.965l2.737 10.035c.5 1.5 2.239 2 5 2s4.5 -.5 5 -2c.333 -1 1.246 -4.345 2.737 -10.035a7.45 7.45 0 0 0 .263 -1.965" />
+  <path d="M17 3l5 3v12l-5 3l-10 -6v-6l10 6v-6l-5 -3z" />
+  <path d="M12 6l-5 -3l-5 3v12l5 3l4.7 -3.13" />
 </svg>

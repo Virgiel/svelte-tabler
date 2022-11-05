@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-bucket"
+  class="icon icon-tabler icon-tabler-building-tunnel"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,6 +17,13 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <ellipse cx="12" cy="7" rx="8" ry="4" />
-  <path d="M4 7c0 .664 .088 1.324 .263 1.965l2.737 10.035c.5 1.5 2.239 2 5 2s4.5 -.5 5 -2c.333 -1 1.246 -4.345 2.737 -10.035a7.45 7.45 0 0 0 .263 -1.965" />
+  <path d="M5 21h14a2 2 0 0 0 2 -2v-7a9 9 0 0 0 -18 0v7a2 2 0 0 0 2 2z" />
+  <path d="M8 21v-9a4 4 0 1 1 8 0v9" />
+  <path d="M3 17h4" />
+  <path d="M17 17h4" />
+  <path d="M21 12h-4" />
+  <path d="M7 12h-4" />
+  <path d="M12 3v5" />
+  <path d="M6 6l3 3" />
+  <path d="M15 9l3 -3l-3 3z" />
 </svg>
