@@ -2259,6 +2259,11 @@ export class IcBrandAmazon extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandAmigo extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandAmongus extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -2329,6 +2334,11 @@ export class IcBrandBandcamp extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandBandlab extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandBeats extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -2384,6 +2394,11 @@ export class IcBrandBulma extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandBumble extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandBunpo extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -2405,6 +2420,11 @@ export class IcBrandCashapp extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcBrandChrome extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBrandCitymapper extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -2439,7 +2459,17 @@ export class IcBrandComedyCentral extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandCoreos extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandCouchsurfing extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBrandCpp extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -2544,6 +2574,11 @@ export class IcBrandDolbyDigital extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandDouban extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandDribbble extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -2570,6 +2605,11 @@ export class IcBrandEmber extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcBrandEnvato extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBrandEvernote extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -2675,6 +2715,11 @@ export class IcBrandGoogleDrive extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcBrandGoogleFit extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBrandGoogleHome extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -2854,6 +2899,11 @@ export class IcBrandMeta extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandMiniprogram extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandMixpanel extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -2869,12 +2919,22 @@ export class IcBrandMyOppo extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandNationalGeographic extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandNem extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
 export class IcBrandNetbeans extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBrandNeteaseMusic extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -2935,6 +2995,11 @@ export class IcBrandOkRu extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcBrandOnedrive extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBrandOnlyfans extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -3035,6 +3100,11 @@ export class IcBrandPushover extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcBrandPython extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBrandQq extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -3164,12 +3234,22 @@ export class IcBrandStackoverflow extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandStackshare extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandSteam extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
 export class IcBrandStorybook extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBrandStorytel extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -3409,6 +3489,11 @@ export class IcBrandWechat extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandWeibo extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandWhatsapp extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -3485,6 +3570,11 @@ export class IcBrandZapier extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcBrandZeit extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBrandZhihu extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
