@@ -19,6 +19,11 @@ export class Ic360View extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class Ic360 extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class Ic3dCubeSphereOff extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -164,7 +169,22 @@ export class IcAirConditioning extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcAlarmMinus extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcAlarmOff extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcAlarmPlus extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcAlarmSnooze extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -4704,6 +4724,11 @@ export class IcCircleHalf extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcCircleKey extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcCircleLetterA extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -6909,6 +6934,11 @@ export class IcExchange extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcExclamationCircle extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcExclamationMarkOff extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -8809,6 +8839,11 @@ export class IcInfoCircle extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcInfoSquareRounded extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcInfoSquare extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -9585,6 +9620,11 @@ export class IcLockOpenOff extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcLockOpen extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcLockSquareRounded extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -11604,6 +11644,11 @@ export class IcQrcode extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcQuestionCircle extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcQuestionMark extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -13029,6 +13074,11 @@ export class IcSquareHalf extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcSquareKey extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcSquareLetterA extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -13254,6 +13304,31 @@ export class IcSquareRotated extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcSquareRoundedArrowDown extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcSquareRoundedArrowLeft extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcSquareRoundedArrowRight extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcSquareRoundedArrowUp extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcSquareRoundedCheck extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcSquareRoundedChevronDown extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -13404,6 +13479,11 @@ export class IcSquareRoundedLetterZ extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcSquareRoundedMinus extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcSquareRoundedNumber0 extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -13450,6 +13530,16 @@ export class IcSquareRoundedNumber8 extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcSquareRoundedNumber9 extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcSquareRoundedPlus extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcSquareRoundedX extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
