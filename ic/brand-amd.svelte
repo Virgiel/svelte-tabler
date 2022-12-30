@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-timeline-event"
+  class="icon icon-tabler icon-tabler-brand-amd"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,8 +17,6 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <circle cx="12" cy="20" r="2" />
-  <path d="M10 20h-6" />
-  <path d="M14 20h6" />
-  <path d="M12 15l-2 -2h-3a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-3l-2 2z" />
+  <path d="M16 16v-7c0 -.566 -.434 -1 -1 -1h-7l-5 -5h17c.566 0 1 .434 1 1v17l-5 -5z" />
+  <path d="M11.293 20.707l4.707 -4.707h-7a1 1 0 0 1 -1 -1v-7l-4.707 4.707a1 1 0 0 0 -.293 .707v6.586a1 1 0 0 0 1 1h6.586a1 1 0 0 0 .707 -.293z" />
 </svg>

@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-timeline-event"
+  class="icon icon-tabler icon-tabler-carousel-horizontal"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,8 +17,7 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <circle cx="12" cy="20" r="2" />
-  <path d="M10 20h-6" />
-  <path d="M14 20h6" />
-  <path d="M12 15l-2 -2h-3a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v8a1 1 0 0 1 -1 1h-3l-2 2z" />
+  <rect x="7" y="5" width="10" height="14" rx="1" />
+  <path d="M22 17h-1a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h1" />
+  <path d="M2 17h1a1 1 0 0 0 1 -1v-8a1 1 0 0 0 -1 -1h-1" />
 </svg>
