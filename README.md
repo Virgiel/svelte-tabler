@@ -1,5 +1,7 @@
 # svelte-tabler
 
+Deprecated by https://www.npmjs.com/package/@tabler/icons-svelte
+
 A library of Svelte components for
 [Tabler Icons](https://github.com/tabler/tabler-icons).
 
