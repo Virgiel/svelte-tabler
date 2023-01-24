@@ -1,0 +1,21 @@
+<script>
+  export let size = "44px";
+  export let color = 'currentColor';
+  export let strokeWidth = 1.5;
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon icon-tabler icon-tabler-brand-dingtalk"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  stroke={color}
+  stroke-width={strokeWidth}
+  fill="none"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0zm-13 -4.5l7.02 2.632a1 1 0 0 1 .567 1.33l-1.087 2.538h1.5l-5 4l1 -4c-3.1 .03 -3.114 -3.139 -4 -6.5z" />
+</svg>

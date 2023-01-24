@@ -1,0 +1,21 @@
+<script>
+  export let size = "44px";
+  export let color = 'currentColor';
+  export let strokeWidth = 1.5;
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon icon-tabler icon-tabler-radar"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  stroke={color}
+  stroke-width={strokeWidth}
+  fill="none"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M21 12h-8a1 1 0 1 0 -1 1v8a9 9 0 0 0 9 -9m-5 -3a5 5 0 1 0 -7 7m11.486 -7a9 9 0 1 0 -11.482 11.495" />
+</svg>

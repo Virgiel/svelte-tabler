@@ -1,0 +1,21 @@
+<script>
+  export let size = "44px";
+  export let color = 'currentColor';
+  export let strokeWidth = 1.5;
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon icon-tabler icon-tabler-podium-off"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  stroke={color}
+  stroke-width={strokeWidth}
+  fill="none"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 8h7l-.621 2.485a2 2 0 0 1 -1.94 1.515h-.439m-4 0h-4.439a2 2 0 0 1 -1.94 -1.515l-.621 -2.485h3m-1 0v-1m.864 -3.106a2.99 2.99 0 0 1 2.136 -.894m-2 9l1 9m6.599 -5.387l-.599 5.387m-8 0h10m-14 -18l18 18" />
+</svg>

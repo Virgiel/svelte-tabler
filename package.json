@@ -1,6 +1,6 @@
 {
   "name": "svelte-tabler",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Tabler Icons as svelte components",
   "svelte": "ic/index.js",
   "main": "ic/index.js",

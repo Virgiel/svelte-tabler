@@ -52,6 +52,7 @@ const release = await (
   )
 ).json();
 console.info('Found version ' + release.tag_name);
+
 const zipReader = new ZipReader(
   new HttpReader(release.assets[0].browser_download_url)
 );
@@ -61,7 +62,7 @@ const entries = await zipReader.getEntries();
 
 const list = [];
 for (const entry of entries) {
-  if (entry.filename.startsWith('icons/')) {
+  if (entry.filename.startsWith('svg/')) {
     const svgName = entry.filename.split('/')[1].split('.')[0];
     const componentName = normalizeName(svgName);
     const full = await entry.getData(new TextWriter());

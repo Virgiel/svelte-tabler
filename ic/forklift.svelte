@@ -1,0 +1,21 @@
+<script>
+  export let size = "44px";
+  export let color = 'currentColor';
+  export let strokeWidth = 1.5;
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon icon-tabler icon-tabler-forklift"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  stroke={color}
+  stroke-width={strokeWidth}
+  fill="none"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M5 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0m11 0m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0m-5 0l5 0m-9 0v-6h13v6m-11 -6v-4h4m0 4v-6h4l3 6m6 4h-3v-10m-3 8l3 0" />
+</svg>
