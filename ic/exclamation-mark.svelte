@@ -17,5 +17,6 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M12 19v.01m0 -4.01v-10" />
+  <path d="M12 19v.01" />
+  <path d="M12 15v-10" />
 </svg>

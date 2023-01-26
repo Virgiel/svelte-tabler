@@ -17,5 +17,7 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M12 6m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0m1 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0m-6 -6l14 0" />
+  <circle cx="12" cy="6" r="1" fill="currentColor" />
+  <circle cx="12" cy="18" r="1" fill="currentColor" />
+  <path d="M5 12l14 0" />
 </svg>

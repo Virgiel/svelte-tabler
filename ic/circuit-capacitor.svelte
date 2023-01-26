@@ -17,5 +17,8 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M22 12h-8m-12 0h8m0 -5v10m4 -10v10" />
+  <path d="M22 12h-8" />
+  <path d="M2 12h8" />
+  <path d="M10 7v10" />
+  <path d="M14 7v10" />
 </svg>

@@ -18,5 +18,5 @@
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M4 19l16 0" />
-  <polyline points="4 15 8 9 12 11 16 6 20 10 20 15 4 15" fill="currentColor" />
+  <path d="M4 15l4 -6l4 2l4 -5l4 4l0 5l-16 0" fill="currentColor" />
 </svg>
