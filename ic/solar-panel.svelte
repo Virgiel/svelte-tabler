@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-brand-instagram"
+  class="icon icon-tabler icon-tabler-solar-panel"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,7 +17,10 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
-  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-  <path d="M16.5 7.5l0 .01" />
+  <path d="M4.28 14h15.44a1 1 0 0 0 .97 -1.243l-1.5 -6a1 1 0 0 0 -.97 -.757h-12.44a1 1 0 0 0 -.97 .757l-1.5 6a1 1 0 0 0 .97 1.243z" />
+  <path d="M4 10h16" />
+  <path d="M10 6l-1 8" />
+  <path d="M14 6l1 8" />
+  <path d="M12 14v4" />
+  <path d="M7 18h10" />
 </svg>
