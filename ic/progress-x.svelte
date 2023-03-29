@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-history-toggle"
+  class="icon icon-tabler icon-tabler-progress-x"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -22,5 +22,6 @@
   <path d="M4.579 17.093a8.961 8.961 0 0 1 -1.227 -2.592" />
   <path d="M3.124 10.5c.16 -.95 .468 -1.85 .9 -2.675l.169 -.305" />
   <path d="M6.907 4.579a8.954 8.954 0 0 1 3.093 -1.356" />
-  <path d="M12 8v4l3 3" />
+  <path d="M14 14l-4 -4" />
+  <path d="M10 14l4 -4" />
 </svg>
