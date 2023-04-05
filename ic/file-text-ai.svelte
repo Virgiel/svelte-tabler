@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-caravan"
+  class="icon icon-tabler icon-tabler-file-text-ai"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,9 +17,12 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M7 18a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-  <path d="M11 18h7a2 2 0 0 0 2 -2v-7a2 2 0 0 0 -2 -2h-9.5a5.5 5.5 0 0 0 -5.5 5.5v3.5a2 2 0 0 0 2 2h2" />
-  <path d="M8 7l7 -3l1 3" />
-  <path d="M13 11m0 .5a.5 .5 0 0 1 .5 -.5h2a.5 .5 0 0 1 .5 .5v2a.5 .5 0 0 1 -.5 .5h-2a.5 .5 0 0 1 -.5 -.5z" />
-  <path d="M20 16h2" />
+  <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+  <path d="M10 21h-3a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v3.5" />
+  <path d="M9 9h1" />
+  <path d="M9 13h2.5" />
+  <path d="M9 17h1" />
+  <path d="M14 21v-4a2 2 0 1 1 4 0v4" />
+  <path d="M14 19h4" />
+  <path d="M21 15v6" />
 </svg>
