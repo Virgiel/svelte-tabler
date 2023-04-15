@@ -3009,6 +3009,16 @@ export class IcBrandAsana extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandAws extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBrandAzure extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandBackbone extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -3140,6 +3150,11 @@ export class IcBrandChrome extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcBrandCitymapper extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBrandCloudflare extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -3514,6 +3529,11 @@ export class IcBrandGoogleHome extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandGoogleMaps extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandGoogleOne extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -3579,6 +3599,11 @@ export class IcBrandHeadlessui extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandHexo extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandHipchat extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -3640,6 +3665,11 @@ export class IcBrandLaravel extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcBrandLastfm extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBrandLeetcode extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -3815,6 +3845,11 @@ export class IcBrandNuxt extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcBrandNytimes extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBrandOauth extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -3999,6 +4034,11 @@ export class IcBrandRevolut extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandRust extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandSafari extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -4104,6 +4144,11 @@ export class IcBrandSteam extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandStorj extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandStorybook extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -4159,6 +4204,11 @@ export class IcBrandSvelte extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandSwift extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandSymfony extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -4185,6 +4235,11 @@ export class IcBrandTed extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcBrandTelegram extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBrandTerraform extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -4695,6 +4750,11 @@ export class IcBuildingLighthouse extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcBuildingMonument extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBuildingMosque extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -7444,6 +7504,11 @@ export class IcCurrencyHryvnia extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcCurrencyIranianRial extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcCurrencyKip extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -9309,6 +9374,11 @@ export class IcDroplet extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcDualScreen extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcEPassport extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -9735,6 +9805,11 @@ export class IcFileCode2 extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcFileCode extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcFileCv extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -11679,7 +11754,7 @@ export class IcHttpOptions extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
-export class IcHttpPath extends SvelteComponentTyped<{
+export class IcHttpPatch extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -11690,6 +11765,11 @@ export class IcHttpPost extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcHttpPut extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcHttpQue extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -12620,6 +12700,11 @@ export class IcLivePhoto extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcLiveView extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcLoadBalancer extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -19010,6 +19095,11 @@ export class IcToiletPaperOff extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcToiletPaper extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcToml extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
