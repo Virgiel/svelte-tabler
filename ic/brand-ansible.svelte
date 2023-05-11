@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-play-volleyball"
+  class="icon icon-tabler icon-tabler-brand-ansible"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,8 +17,6 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M13 4a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
-  <path d="M20.5 10a.5 .5 0 1 0 0 -1a.5 .5 0 0 0 0 1z" fill="currentColor" />
-  <path d="M2 16l5 1l.5 -2.5" />
-  <path d="M11.5 21l2.5 -5.5l-5.5 -3.5l3.5 -4l3 4l4 2" />
+  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M9.647 12.294l6.353 3.706l-4 -9l-4 9" />
 </svg>

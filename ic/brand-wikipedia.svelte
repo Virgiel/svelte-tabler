@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-play-volleyball"
+  class="icon icon-tabler icon-tabler-brand-wikipedia"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,8 +17,10 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M13 4a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
-  <path d="M20.5 10a.5 .5 0 1 0 0 -1a.5 .5 0 0 0 0 1z" fill="currentColor" />
-  <path d="M2 16l5 1l.5 -2.5" />
-  <path d="M11.5 21l2.5 -5.5l-5.5 -3.5l3.5 -4l3 4l4 2" />
+  <path d="M3 4.984h2" />
+  <path d="M8 4.984h2.5" />
+  <path d="M14.5 4.984h2.5" />
+  <path d="M22 4.984h-2" />
+  <path d="M4 4.984l5.455 14.516l6.545 -14.516" />
+  <path d="M9 4.984l6 14.516l6 -14.516" />
 </svg>
