@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-pyramid"
+  class="icon icon-tabler icon-tabler-prism-off"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,6 +17,8 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M11.105 21.788a1.994 1.994 0 0 0 1.789 0l8.092 -4.054c.538 -.27 .718 -.951 .385 -1.452l-8.54 -13.836a.999 .999 0 0 0 -1.664 0l-8.54 13.836a1.005 1.005 0 0 0 .386 1.452l8.092 4.054z" />
-  <path d="M12 2v20" />
+  <path d="M12 12v10" />
+  <path d="M17.957 17.952l-4.937 3.703a1.7 1.7 0 0 1 -2.04 0l-5.98 -4.485a2.5 2.5 0 0 1 -1 -2v-11.17m3 -1h12a1 1 0 0 1 1 1v11.17c0 .25 -.037 .495 -.109 .729" />
+  <path d="M12.688 8.7a1.7 1.7 0 0 0 .357 -.214l6.655 -5.186" />
+  <path d="M3 3l18 18" />
 </svg>
