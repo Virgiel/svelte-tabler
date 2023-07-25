@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-basket-exclamation"
+  class="icon icon-tabler icon-tabler-brand-xdeep"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,10 +17,5 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M17 10l-2 -6" />
-  <path d="M7 10l2 -6" />
-  <path d="M15 20h-7.756a3 3 0 0 1 -2.965 -2.544l-1.255 -7.152a2 2 0 0 1 1.977 -2.304h13.999a2 2 0 0 1 1.977 2.304l-.36 2.055" />
-  <path d="M10 14a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-  <path d="M19 16v3" />
-  <path d="M19 22v.01" />
+  <path d="M14.401 8.398l1.599 -2.398h5l-4 6l4 6h-5l-8 -12h-5l4 6l-4 6h5l1.596 -2.393" />
 </svg>
