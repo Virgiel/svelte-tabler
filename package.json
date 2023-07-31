@@ -10,7 +10,7 @@
     "build": "deno run --unstable -A generate.js"
   },
   "peerDependencies": {
-    "svelte": "^3.49.x"
+    "svelte": "^4.x.x"
   },
   "files": [
     "ic"
