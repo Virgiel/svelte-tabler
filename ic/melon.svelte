@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-network"
+  class="icon icon-tabler icon-tabler-melon"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,12 +17,5 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M6 9a6 6 0 1 0 12 0a6 6 0 0 0 -12 0" />
-  <path d="M12 3c1.333 .333 2 2.333 2 6s-.667 5.667 -2 6" />
-  <path d="M12 3c-1.333 .333 -2 2.333 -2 6s.667 5.667 2 6" />
-  <path d="M6 9h12" />
-  <path d="M3 20h7" />
-  <path d="M14 20h7" />
-  <path d="M10 20a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-  <path d="M12 15v3" />
+  <path d="M20 10c0 5.523 -4.477 10 -10 10a9.967 9.967 0 0 1 -6.984 -2.842l4.343 -4.153a4 4 0 0 0 5.76 -5.51l4.342 -4.153a9.963 9.963 0 0 1 2.539 6.658z" />
 </svg>

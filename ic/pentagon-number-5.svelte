@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-network"
+  class="icon icon-tabler icon-tabler-pentagon-number-5"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,12 +17,6 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M6 9a6 6 0 1 0 12 0a6 6 0 0 0 -12 0" />
-  <path d="M12 3c1.333 .333 2 2.333 2 6s-.667 5.667 -2 6" />
-  <path d="M12 3c-1.333 .333 -2 2.333 -2 6s.667 5.667 2 6" />
-  <path d="M6 9h12" />
-  <path d="M3 20h7" />
-  <path d="M14 20h7" />
-  <path d="M10 20a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-  <path d="M12 15v3" />
+  <path d="M13.163 2.168l8.021 5.828c.694 .504 .984 1.397 .719 2.212l-3.064 9.43a1.978 1.978 0 0 1 -1.881 1.367h-9.916a1.978 1.978 0 0 1 -1.881 -1.367l-3.064 -9.43a1.978 1.978 0 0 1 .719 -2.212l8.021 -5.828a1.978 1.978 0 0 1 2.326 0z" />
+  <path d="M10 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3v-4h4" />
 </svg>
