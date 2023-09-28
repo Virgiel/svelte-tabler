@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-route-2"
+  class="icon icon-tabler icon-tabler-arrow-merge-alt-right"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,7 +17,10 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M3 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-  <path d="M19 7a2 2 0 1 0 0 -4a2 2 0 0 0 0 4z" />
-  <path d="M14 5a2 2 0 0 0 -2 2v10a2 2 0 0 1 -2 2" />
+  <path d="M16 7l-4 -4l-4 4" />
+  <path d="M6 21v.01" />
+  <path d="M6 18.01v.01" />
+  <path d="M7 15.02v.01" />
+  <path d="M10 13.03v.01" />
+  <path d="M12 3v5.394a6.737 6.737 0 0 0 3 5.606a6.737 6.737 0 0 1 3 5.606v1.394" />
 </svg>
