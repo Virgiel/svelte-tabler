@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-bed-off"
+  class="icon icon-tabler icon-tabler-horseshoe"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,9 +17,5 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M7 7a2 2 0 1 0 2 2" />
-  <path d="M22 17v-3h-4m-4 0h-12" />
-  <path d="M2 8v9" />
-  <path d="M12 12v2h2m4 0h4v-2a3 3 0 0 0 -3 -3h-6" />
-  <path d="M3 3l18 18" />
+  <path d="M19 17c.5 -1.242 2 -2 2 -5s-1 -9 -9 -9s-9 6 -9 9s1.495 3.749 2 5l-2 1l2 3l2.406 -1.147c1.25 -.714 1.778 -2.08 1.203 -3.363c-1.078 -2.407 -1.609 -8.49 3.391 -8.49s4.469 6.083 3.39 8.49c-.574 1.284 -.045 2.649 1.204 3.363l2.406 1.147l2 -3l-2 -1z" />
 </svg>
