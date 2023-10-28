@@ -3919,6 +3919,11 @@ export class IcBrandGoogleDrive extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandGoogleFilled extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandGoogleFit extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -4394,6 +4399,11 @@ export class IcBrandPowershell extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBrandPrintables extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBrandPrisma extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -4690,6 +4700,11 @@ export class IcBrandTerraform extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcBrandTether extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBrandThingiverse extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -5499,12 +5514,22 @@ export class IcCalendarRepeat extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcCalendarSad extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcCalendarSearch extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
 export class IcCalendarShare extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcCalendarSmile extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -5525,6 +5550,11 @@ export class IcCalendarTime extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcCalendarUp extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcCalendarUser extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -5930,6 +5960,16 @@ export class IcCategory2 extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcCategoryFilled extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcCategoryMinus extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcCategoryPlus extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -10924,6 +10964,11 @@ export class IcFileMusic extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcFileNeutral extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcFileOff extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -10969,6 +11014,11 @@ export class IcFileRss extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcFileSad extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcFileScissors extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -10990,6 +11040,11 @@ export class IcFileShredder extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcFileSignal extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcFileSmile extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -16065,6 +16120,11 @@ export class IcMeteorOff extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcMeteor extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcMetronome extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -21659,6 +21719,31 @@ export class IcStack3 extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcStackBack extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcStackBackward extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcStackForward extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcStackFront extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcStackMiddle extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcStackPop extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -22470,6 +22555,11 @@ export class IcToolsKitchen2Off extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcToolsKitchen2 extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcToolsKitchen3 extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
