@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-message-report"
+  class="icon icon-tabler icon-tabler-snowboarding"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,7 +17,9 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M18 4a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-5l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12z" />
-  <path d="M12 8v3" />
-  <path d="M12 14v.01" />
+  <path d="M15 3a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
+  <path d="M7 19l4 -2.5l-.5 -1.5" />
+  <path d="M16 21l-1 -6l-4.5 -3l3.5 -6" />
+  <path d="M7 9l1.5 -3h5.5l2 4l3 1" />
+  <path d="M3 17c.399 1.154 .899 1.805 1.5 1.951c6 1.464 10.772 2.262 13.5 2.927c1.333 .325 2.333 0 3 -.976" />
 </svg>
