@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-parking"
+  class="icon icon-tabler icon-tabler-ear-scan"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,6 +17,10 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z" />
-  <path d="M10 16v-8h2.667c.736 0 1.333 .895 1.333 2s-.597 2 -1.333 2h-2.667" />
+  <path d="M15 15a2 2 0 0 1 -2 2c-.732 0 -1.555 -.247 -1.72 -.98c-.634 -2.8 -3.17 -2.628 -3.28 -5.02v-.5a3.5 3.5 0 0 1 6.671 -1.483" />
+  <path d="M4 8v-2a2 2 0 0 1 2 -2h2" />
+  <path d="M4 16v2a2 2 0 0 0 2 2h2" />
+  <path d="M16 4h2a2 2 0 0 1 2 2v2" />
+  <path d="M16 20h2a2 2 0 0 0 2 -2v-2" />
+  <path d="M13 12v.01" />
 </svg>
