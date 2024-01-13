@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-square-percentage"
+  class="icon icon-tabler icon-tabler-chart-scatter-3d"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,8 +17,13 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z" />
-  <path d="M9 15.037l6 -6" />
-  <path d="M9 9.068v.014" />
-  <path d="M15 15.082v.016" />
+  <path d="M3 20l9 -7" />
+  <path d="M12 3v10l9 7" />
+  <path d="M17 12v.015" />
+  <path d="M17 4.015v.015" />
+  <path d="M21 8.015v.015" />
+  <path d="M12 19.015v.015" />
+  <path d="M3 12.015v.015" />
+  <path d="M7 8.015v.015" />
+  <path d="M3 4.015v.015" />
 </svg>

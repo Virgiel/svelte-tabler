@@ -1164,6 +1164,11 @@ export class IcArrowDownCircle extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcArrowDownFromArc extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcArrowDownLeftCircle extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -1195,6 +1200,11 @@ export class IcArrowDownSquare extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcArrowDownTail extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcArrowDownToArc extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -1254,6 +1264,11 @@ export class IcArrowLeftCircle extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcArrowLeftFromArc extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcArrowLeftRhombus extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -1270,6 +1285,11 @@ export class IcArrowLeftSquare extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcArrowLeftTail extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcArrowLeftToArc extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -1409,6 +1429,11 @@ export class IcArrowRightCircle extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcArrowRightFromArc extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcArrowRightRhombus extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -1420,6 +1445,11 @@ export class IcArrowRightSquare extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcArrowRightTail extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcArrowRightToArc extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -1494,6 +1524,11 @@ export class IcArrowUpCircle extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcArrowUpFromArc extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcArrowUpLeftCircle extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -1525,6 +1560,11 @@ export class IcArrowUpSquare extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcArrowUpTail extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcArrowUpToArc extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -1884,6 +1924,11 @@ export class IcAutomaticGearbox extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcAvocado extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcAwardFilled extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
@@ -1970,6 +2015,11 @@ export class IcBadge4k extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcBadge8k extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBadgeAdOff extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -3029,7 +3079,17 @@ export class IcBow extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcBowlChopsticks extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcBowlFilled extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcBowlSpoon extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -6325,6 +6385,16 @@ export class IcChartRadar extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcChartSankey extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcChartScatter3d extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcChartScatter extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -20924,7 +20994,22 @@ export class IcSortAscendingNumbers extends SvelteComponentTyped<{
 	size?: string | number;
 	strokeWidth?: string | number;
 }> {}
+export class IcSortAscendingShapes extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcSortAscendingSmallBig extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
 export class IcSortAscending extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcSortDeacendingSmallBig extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
@@ -20940,6 +21025,11 @@ export class IcSortDescendingLetters extends SvelteComponentTyped<{
 	strokeWidth?: string | number;
 }> {}
 export class IcSortDescendingNumbers extends SvelteComponentTyped<{
+	color?: string;
+	size?: string | number;
+	strokeWidth?: string | number;
+}> {}
+export class IcSortDescendingShapes extends SvelteComponentTyped<{
 	color?: string;
 	size?: string | number;
 	strokeWidth?: string | number;
