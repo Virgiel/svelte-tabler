@@ -6,7 +6,7 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="icon icon-tabler icon-tabler-math-max"
+  class="icon icon-tabler icon-tabler-temperature-sun"
   width={size}
   height={size}
   viewBox="0 0 24 24"
@@ -17,7 +17,12 @@
   stroke-linejoin="round"
 >
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M5 6a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
-  <path d="M3 15s.616 -5.544 2.332 -7.93" />
-  <path d="M8.637 7.112c2.717 3.313 5.882 12.888 8.363 12.888c2 0 3.333 -3 4 -9" />
+  <path d="M4 13.5a4 4 0 1 0 4 0v-8.5a2 2 0 1 0 -4 0v8.5" />
+  <path d="M4 9h4" />
+  <path d="M13 16a4 4 0 1 0 0 -8a4.07 4.07 0 0 0 -1 .124" />
+  <path d="M13 3v1" />
+  <path d="M21 12h1" />
+  <path d="M13 20v1" />
+  <path d="M19.4 5.6l-.7 .7" />
+  <path d="M18.7 17.7l.7 .7" />
 </svg>
